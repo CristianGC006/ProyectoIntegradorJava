@@ -33,7 +33,7 @@ class Ejercicio {
                     salirYFacturar();
                     break;
                 case 4:
-                    System.out.println("Saliendo del parqueadero...Buen viaje usuario ;)");
+                    System.out.println("Saliendo del parqueadero...Buen viaje ;)" );
                     break;
                 default:
                     System.out.println("Ingrese una opción válida!");
@@ -71,7 +71,7 @@ class Ejercicio {
         usuarios[contUsuarios] = nuevoUsuario;
         contUsuarios++;
 
-        System.out.println("Tu vehículo ha sido registrado exitosamente a las " + horaIngreso);
+        System.out.println("Tu vehículo ha sido registrado exitosamente a las: " + horaIngreso);
     }
 
     // Método para iniciar sesión
